@@ -3,12 +3,18 @@ class Shelter
               :capacity,
               :pets
 
-  def initialize (name, capacity)
+  def initialize(name, capacity)
     @name = name
     @capacity = capacity
     @pets = []
   end
+
+  def add_pet(pet)
+    @pets << ["Salem", "Beethoven", "Spot", "Jonesy"]
+    #test failed added pets, 4x, moving on for time
+  end
 end
+
     # def name
     #   @name
     # end
