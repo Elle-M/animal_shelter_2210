@@ -10,7 +10,8 @@ class Shelter
   end
 
   def add_pet(pet)
-    @pets << ["Salem", "Beethoven", "Spot", "Jonesy"]
+    @pets << pet
+    pet = ["Salem", "Beethoven", "Spot", "Jonesy"]
     #test failed added pets, 4x, moving on for time
   end
 end
